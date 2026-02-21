@@ -1,8 +1,7 @@
 import java.util.HashMap;
 import java.util.Random;
 
-public class LanguageModel {
-
+class LanguageModel{
     // The map of this model.
     // Maps windows to lists of charachter data objects.
     HashMap<String, List> CharDataMap;
